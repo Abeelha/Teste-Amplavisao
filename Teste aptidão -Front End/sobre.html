@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sobre Pharmaco</title>
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="cabecario">
+        <img src="./img/Pharmaco logo.png" alt="Logo da Pharmaco" />
+        <div>
+          <ul class="navegacao">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1>Sobre Nós</h1>
+
+      <section class="atendimento">
+        <p id="collapse1" class="text-center">
+          <button
+            class="btn-style"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+          >
+            Atendimento
+          </button>
+        </p>
+        <div
+          class="collapse grow"
+          id="collapseExample"
+          data-parent="#collapse1"
+        >
+          <img
+            class="img-atendimento"
+            src="./img/atendimento.png"
+            alt="Atendimento"
+          />
+          <div class="font-size-25 line-height-2 padding-p">
+            <p>
+              Nosso atendimento é a prestação de serviço aos clientes antes,
+              durante e depois da compra.
+            </p>
+
+            <p>
+              A percepção de sucesso de tais interações depende dos funcionários
+              que estão preparados para atender as expectativas dos clientes.
+            </p>
+
+            <p>E nossos atendentes são <strong>ótimos</strong> nisso!</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="produtos line-height-2 text-c">
+        <p id="collapse2" class="text-center">
+          <button
+            class="btn-style"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample2"
+            aria-expanded="false"
+            aria-controls="collapseExample2"
+          >
+            Produtos
+          </button>
+        </p>
+        <div
+          class="collapse grow"
+          id="collapseExample2"
+          data-parent="#collapse2"
+        >
+          <img class="img-produtos" src="./img/produtos.jpg" alt="Produtos" />
+
+          <div class="font-size-25 line-height-2 padding-p">
+            <p>
+              Nossa farmácia é um lugar onde se promove a
+              <strong>saúde</strong> da população
+            </p>
+
+            <p>
+              A missão principal do farmacêutico é prover a atenção
+              farmacêutica, responsável por cuidados relacionados a
+              medicamentos,
+            </p>
+
+            <p>
+              Com o propósito de conseguir resultados definitivos que melhorem a
+              qualidade de vida dos pacientes através da venda correta e
+              responsável de medicamentos prescritos por
+              <strong>profissionais</strong>
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="mapa line-height-2">
+        <p id="collapse3" class="text-center">
+          <button
+            class="btn-style line-height-1"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample3"
+            aria-expanded="false"
+            aria-controls="collapseExample3"
+          >
+            Nosso Estabelecimento
+          </button>
+        </p>
+        <div
+          class="collapse grow"
+          id="collapseExample3"
+          data-parent="#collapse3"
+        >
+          <div class="mapa-conteudo">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.905444122954!2d-46.71258438447635!3d-23.535903066538914!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef94276fc0f45%3A0x26a511a578e1d3e6!2sPharma.CO!5e0!3m2!1spt-BR!2sbr!4v1582232037160!5m2!1spt-BR!2sbr"
+              width="100%"
+              height="300"
+              frameborder="0"
+              style="border:0;"
+              allowfullscreen=""
+            ></iframe>
+            <p class="font-size-25 line-height-2 padding-p">
+              Está localizado no <strong class="t-italic">"coração"</strong> da
+              cidade
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="video">
+        <p id="collapse4" class="text-center">
+          <button
+            class="btn-style line-height-1"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample4"
+            aria-expanded="false"
+            aria-controls="collapseExample4"
+          >
+            Video sobre nossa farmácia
+          </button>
+        </p>
+        <div
+          class="collapse grow video-conteudo"
+          id="collapseExample4"
+          data-parent="#collapse4"
+        >
+          <iframe
+            width="100%"
+            height="315"
+            src="https://www.youtube.com/embed/TiUK8oyKY70"
+            frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <img src="./img/Pharmaco logo.png" alt="" />
+      <p class="copyright">
+        <strong>&copy; Copyright Farmácia Pharmaco - 2020</strong>
+      </p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="./js/jquery.mask.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  </body>
+</html>
